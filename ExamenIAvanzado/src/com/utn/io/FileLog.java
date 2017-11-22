@@ -2,8 +2,9 @@ package com.utn.io;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.io.Serializable;
 
-public class FileLog {
+public class FileLog implements Serializable{
 
 	/**
 	 * 
